@@ -1,5 +1,9 @@
 import React ,{useReducer,useContext, useEffect} from 'react';
 
+//Most of the code gathered online for copyright issues i will mention some names
+// Harry Wolff youtube channel link https://www.youtube.com/watch?v=YKmiLcXiMMo
+
+
 function appReducer(state,action){
   switch(action.type){
     case 'reset':{
